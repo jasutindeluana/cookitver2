@@ -1,0 +1,74 @@
+@font-face { font-family: Capsuula; src: url(links/Capsuula.ttf);}
+
+body{margin: 0; font-family: Capsuula; background-color: bisque;}
+
+/*---------------- Navigation bar ----------------*/
+
+.navtitle {
+    display: block;
+    padding: .4em;
+    font-size: 2.3em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav01 ul { list-style: none; background-color: orange;  overflow: hidden; }
+
+.nav01 li {
+     float: left;
+}
+
+.nav01 .button {
+    display: block;
+    padding: .75em;
+    font-size: 1.75em;
+    color: white;
+    
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgb(202, 131, 0);
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+/*---------------- Body - Recipes page----------------*/
+
+.cat01 ul, .cat02 ul {
+    list-style: none;
+}
+
+.cat01 ul, .cat02 ul {
+    float: left;
+}
+
+.cat01 li, .cat02 li {
+    margin: 1em;
+}
+
+.cat01 a, .cat02 a {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-decoration: none;
+    display: block;
+    padding: 2em;
+    width: 15em;
+    border: 1px solid orange;
+    border-radius: 20px;
+    text-shadow: 1px 1px rgb(110, 72, 0);
+    background-color: orange;
+}
+
+.rec01 { background-image: url(images/categories/01.png); background-size: cover;}
+.rec02 { background-image: url(images/categories/02.png); background-size: cover;}
+.rec03 { background-image: url(images/categories/03.png); background-size: cover;}
+.rec04 { background-image: url(images/categories/04.png); background-size: cover;}
+.rec05 { background-image: url(images/categories/05.png); background-size: cover;}
+.rec06 { background-image: url(images/categories/06.png); background-size: cover;}
+
+.cat:hover {
+    transform: scale(1.025);
+    transition: transform .2s;
+    filter:brightness(.9)
+}
