@@ -1,4 +1,4 @@
-@font-face { font-family: Capsuula; src: url(links/Capsuula.ttf);}
+@font-face { font-family: Capsuula; src: url(../links/Capsuula.ttf);}
 
 body{margin: 0; font-family: Capsuula; background-color: bisque;}
 
@@ -60,12 +60,12 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
     background-color: orange;
 }
 
-.rec01 { background-image: url(images/categories/01.png); background-size: cover;}
-.rec02 { background-image: url(images/categories/02.png); background-size: cover;}
-.rec03 { background-image: url(images/categories/03.png); background-size: cover;}
-.rec04 { background-image: url(images/categories/04.png); background-size: cover;}
-.rec05 { background-image: url(images/categories/05.png); background-size: cover;}
-.rec06 { background-image: url(images/categories/06.png); background-size: cover;}
+.rec01 { background-image: url(../images/categories/01.png); background-size: cover;}
+.rec02 { background-image: url(../images/categories/02.png); background-size: cover;}
+.rec03 { background-image: url(../images/categories/03.png); background-size: cover;}
+.rec04 { background-image: url(../images/categories/04.png); background-size: cover;}
+.rec05 { background-image: url(../images/categories/05.png); background-size: cover;}
+.rec06 { background-image: url(../images/categories/06.png); background-size: cover;}
 
 .cat:hover {
     transform: scale(1.025);

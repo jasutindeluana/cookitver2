@@ -1,4 +1,4 @@
-@font-face { font-family: Capsuula; src: url(links/Capsuula.ttf);}
+@font-face { font-family: Capsuula; src: url(../links/Capsuula.ttf);}
 
 /* ------------- Navigation bar - Top --------------*/
 
@@ -24,7 +24,7 @@ nav a {
 /* --------------------------- Body ---------------------------*/
 
 body{margin: 0;
-     background-image: url(images/background.png);
+     background-image: url(../images/background.png);
      background-size: cover;
      font-family: Capsuula;}
 
