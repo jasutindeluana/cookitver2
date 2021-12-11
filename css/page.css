@@ -14,9 +14,7 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
 
 .nav01 ul { list-style: none; background-color: orange;  overflow: hidden; }
 
-.nav01 li {
-     float: left;
-}
+.nav01 li { float: left; }
 
 .nav01 .button {
     display: block;
@@ -35,19 +33,11 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
 
 /*---------------- Body - Recipes page----------------*/
 
-.cat01 ul, .cat02 ul {
-    list-style: none;
-}
+.sec01 ul, .sec02 ul { list-style: none; float: left; }
 
-.cat01 ul, .cat02 ul {
-    float: left;
-}
+.sec01 li, .sec02 li { margin: 1em; }
 
-.cat01 li, .cat02 li {
-    margin: 1em;
-}
-
-.cat01 a, .cat02 a {
+.sec01 a, .sec02 a {
     color: rgb(255, 255, 255);
     font-size: 35px;
     text-decoration: none;
@@ -60,15 +50,48 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
     background-color: orange;
 }
 
-.rec01 { background-image: url(../images/categories/01.png); background-size: cover;}
-.rec02 { background-image: url(../images/categories/02.png); background-size: cover;}
-.rec03 { background-image: url(../images/categories/03.png); background-size: cover;}
-.rec04 { background-image: url(../images/categories/04.png); background-size: cover;}
-.rec05 { background-image: url(../images/categories/05.png); background-size: cover;}
-.rec06 { background-image: url(../images/categories/06.png); background-size: cover;}
+.cat01 { background-image: url(../images/categories/01.png); background-size: cover;}
+.cat02 { background-image: url(../images/categories/02.png); background-size: cover;}
+.cat03 { background-image: url(../images/categories/03.png); background-size: cover;}
+.cat04 { background-image: url(../images/categories/04.png); background-size: cover;}
+.cat05 { background-image: url(../images/categories/05.png); background-size: cover;}
+.cat06 { background-image: url(../images/categories/06.png); background-size: cover;}
 
 .cat:hover {
     transform: scale(1.025);
     transition: transform .2s;
     filter:brightness(.9)
 }
+
+/*---------------- Body - Categories>Recipes ----------------*/
+
+.recsec01 ul , .recsec02 ul,.recsec03 ul {
+    list-style: none;
+    float: left;
+}
+
+.recsec01 li, .recsec02 li, .recsec03 li {
+    margin-top: 1em;
+    
+}
+
+.recsec01 a, .recsec02 a, .recsec03 a {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-decoration: none;
+    display: block;
+    padding: 2em;
+    width: 9em;
+    height: 3em;
+    border: 1px solid orange;
+    border-radius: 20px;
+    text-shadow: 1px 1px rgb(110, 72, 0);
+    background-color: orange;
+}
+
+.rec0101 { background-image: url(../images/categories/cat01/01.png); background-size: cover;}
+.rec0102 { background-image: url(../images/categories/cat01/02.png); background-size: cover;}
+.rec0103 { background-image: url(../images/categories/cat01/03.png); background-size: cover;}
+.rec0104 { background-image: url(../images/categories/cat01/04.png); background-size: cover;}
+.rec0105 { background-image: url(../images/categories/cat01/05.png); background-size: cover;}
+.rec0106 { background-image: url(../images/categories/cat01/06.png); background-size: cover;}
