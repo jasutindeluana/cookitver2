@@ -1,6 +1,8 @@
-@font-face { font-family: Capsuula; src: url(../links/Capsuula.ttf);}
+@font-face { font-family: Capsuula; src: url(../links/Capsuula.ttf); font-weight: bold;}
 
 body{margin: 0; font-family: Capsuula; background-color: bisque;}
+
+
 
 /*---------------- Navigation bar ----------------*/
 
@@ -148,3 +150,11 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
 
 /*---------------- Body - Category 01 > Recipe Pages ----------------*/
 
+.dish {font-size: 80px; text-align: center;}
+
+.ing p {
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    right: 300px;
+}
