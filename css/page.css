@@ -58,10 +58,10 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
     text-decoration: none;
     display: block;
     padding: 2em;
-    width: 15em;
+    width: 20em;
     border: 1px solid orange;
     border-radius: 20px;
-    text-shadow: 1px 1px rgb(110, 72, 0);
+    text-shadow: 1px 1px rgb(255, 166, 0);
     background-color: orange;
 }
 
@@ -92,15 +92,15 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
 
 .recsec01 a, .recsec02 a, .recsec03 a {
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 60px;
     text-decoration: none;
     display: block;
-    padding: 2em;
+    padding: 0.5em;
     width: 8em;
     height: 3em;
     border: 1px solid orange;
     border-radius: 20px;
-    text-shadow: 1px 1px rgb(110, 72, 0);
+    text-shadow: 1px 1px rgb(255, 166, 0);
     background-color: orange;
 }
 
@@ -110,6 +110,41 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
 .rec0104 { background-image: url(../images/categories/cat01/04.png); background-size: cover;}
 .rec0105 { background-image: url(../images/categories/cat01/05.png); background-size: cover;}
 .rec0106 { background-image: url(../images/categories/cat01/06.png); background-size: cover;}
+
+.rec0201 { background-image: url(../images/categories/cat02/01.png); background-size: cover;}
+.rec0202 { background-image: url(../images/categories/cat02/02.png); background-size: cover;}
+.rec0203 { background-image: url(../images/categories/cat02/03.png); background-size: cover;}
+.rec0204 { background-image: url(../images/categories/cat02/04.png); background-size: cover;}
+.rec0205 { background-image: url(../images/categories/cat02/05.png); background-size: cover;}
+.rec0206 { background-image: url(../images/categories/cat02/06.png); background-size: cover;}
+
+.rec0301 { background-image: url(../images/categories/cat03/01.png); background-size: cover;}
+.rec0302 { background-image: url(../images/categories/cat03/02.png); background-size: cover;}
+.rec0303 { background-image: url(../images/categories/cat03/03.png); background-size: cover;}
+.rec0304 { background-image: url(../images/categories/cat03/04.png); background-size: cover;}
+.rec0305 { background-image: url(../images/categories/cat03/05.png); background-size: cover;}
+.rec0306 { background-image: url(../images/categories/cat03/06.png); background-size: cover;}
+
+.rec0401 { background-image: url(../images/categories/cat04/01.png); background-size: cover;}
+.rec0402 { background-image: url(../images/categories/cat04/02.png); background-size: cover;}
+.rec0403 { background-image: url(../images/categories/cat04/03.png); background-size: cover;}
+.rec0404 { background-image: url(../images/categories/cat04/04.png); background-size: cover;}
+.rec0405 { background-image: url(../images/categories/cat04/05.png); background-size: cover;}
+.rec0406 { background-image: url(../images/categories/cat04/06.png); background-size: cover;}
+
+.rec0501 { background-image: url(../images/categories/cat05/01.png); background-size: cover;}
+.rec0502 { background-image: url(../images/categories/cat05/02.png); background-size: cover;}
+.rec0503 { background-image: url(../images/categories/cat05/03.png); background-size: cover;}
+.rec0504 { background-image: url(../images/categories/cat05/04.png); background-size: cover;}
+.rec0505 { background-image: url(../images/categories/cat05/05.png); background-size: cover;}
+.rec0506 { background-image: url(../images/categories/cat05/06.png); background-size: cover;}
+
+.rec0601 { background-image: url(../images/categories/cat06/01.png); background-size: cover;}
+.rec0602 { background-image: url(../images/categories/cat06/02.png); background-size: cover;}
+.rec0603 { background-image: url(../images/categories/cat06/03.png); background-size: cover;}
+.rec0604 { background-image: url(../images/categories/cat06/04.png); background-size: cover;}
+.rec0605 { background-image: url(../images/categories/cat06/05.png); background-size: cover;}
+.rec0606 { background-image: url(../images/categories/cat06/06.png); background-size: cover;}
 
 /*---------------- Body - Category 01 > Recipe Pages ----------------*/
 
