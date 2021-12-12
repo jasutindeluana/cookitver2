@@ -40,7 +40,7 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
     border: 2px solid orange; 
     position: fixed;
     bottom: 50px;
-    left: 50px;
+    right: 50px;
     display: block;
     width: 75px;
     height: 75px;
@@ -150,7 +150,12 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
 
 /*---------------- Body - Category 01 > Recipe Pages ----------------*/
 
-.dish {font-size: 80px; text-align: center;}
+.dish {
+    font-size: 80px; text-align: center; 
+    background-color: rgb(185, 164, 137);
+    margin: -20 0 100 0 ;
+    padding: 2em;
+}
 
 .ing p {
     font-size: x-large;
