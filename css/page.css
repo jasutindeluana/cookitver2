@@ -47,6 +47,12 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
     border-radius: 20px; 
     background-color: white;
 }
+
+.backbutton:hover {
+    transform: scale(1.025);
+    transition: transform .2s;
+}
+
 /*---------------- Body - Home page----------------*/
 
 .slideshows {
