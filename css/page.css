@@ -53,7 +53,7 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
     transition: transform .2s;
 }
 
-/*---------------- Body - Home page----------------*/
+/*---------------- Body - Home page ----------------*/
 
 .slideshows {
     margin: 0;
@@ -193,7 +193,7 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
     filter:brightness(.9)
 }
 
-/*---------------- Body - Categories > Recipes ----------------*/
+/*----------------------- Body - PAGE02 -----------------------*/
 
 .recsec01 ul , .recsec02 ul,.recsec03 ul {
     list-style: none;
@@ -261,7 +261,7 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
 .rec0605 { background-image: url(../images/categories/cat06/05.png); background-size: cover;}
 .rec0606 { background-image: url(../images/categories/cat06/06.png); background-size: cover;}
 
-/*---------------- Body - Category 01 > Recipe Pages ----------------*/
+/*---------------- Body - Recipe Pages ----------------*/
 
 .dish {
     font-size: 80px; text-align: center; 
