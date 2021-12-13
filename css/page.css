@@ -47,7 +47,114 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
     border-radius: 20px; 
     background-color: white;
 }
+/*---------------- Body - Home page----------------*/
 
+.slideshows {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;    
+}
+
+.slideshows-content {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    animation: imageslideshows 41s infinite;
+}
+
+.slideshows-content img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    animation: imagezoom 41s infinite;
+}
+
+.slideshows-content:nth-child(1),
+.slideshows-content:nth-child(1) img {
+    animation-delay: 0s;
+}
+.slideshows-content:nth-child(2),
+.slideshows-content:nth-child(2) img {
+    animation-delay: 10s;
+}
+.slideshows-content:nth-child(3),
+.slideshows-content:nth-child(3) img {
+    animation-delay: 20s;
+}
+.slideshows-content:nth-child(4),
+.slideshows-content:nth-child(4) img {
+    animation-delay: 30s;
+}
+
+.slideshows-context {
+    max-width: 50%;
+    position: absolute;
+    top: 6%;
+    left: 0;
+    transform: tranlateY(-40%);
+    background-color: rgb(202, 131, 0,.5);
+    padding: 1rem 4rem;
+}
+
+.slideshows-context h4{
+    font-size: 3.5rem;
+    font-family: Capsuula;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.slideshows-context p{
+    font-size: 1.5rem;
+    font-family: Capsuula;
+    letter-spacing: 1px;
+}
+
+@keyframes imageslideshows { 
+    25% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+@keyframes imagezoom {
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .slideshows-context {
+        max-width: 70%;
+        padding: .5rem 2rem;
+    }
+    .slideshows-context h4{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .slideshows-context {
+        max-width: 100%;
+        padding: .3rem 1rem;
+        top: initial;
+        transform: initial;
+        bottom: 0;
+    }
+    .slideshows-context h4{
+        font-size: 3rem;
+    }
+    .slideshows-context p{
+        font-size: 1.2rem;
+    }
+}
 /*---------------- Body - Recipes page----------------*/
 
 .sec01 ul, .sec02 ul { list-style: none; float: left; }
