@@ -276,9 +276,32 @@ body{margin: 0; font-family: Capsuula; background-color: bisque;}
     padding: 2em;
 }
 
-.ing p {
-    font-size: x-large;
+.tab {
     text-align: center;
-    position: relative;
-    right: 300px;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: orange;
+    text-shadow: 1px 1px black;
+}
+
+.column2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.column2-content {
+    text-align: center;
+    font-size: 30px;
+}
+
+.column1 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+}
+
+.column1-content {
+    text-align: center;
+    font-size: 30px;
 }
